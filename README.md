@@ -32,10 +32,6 @@ Welcome to **NOVA**, a simple and modern online store built with HTML, CSS, and 
 - `script.js` - Website functionality
 - `images/` - Product images
 
-## 👩‍💻 About This Project
 
-NOVA is my first online store project, created as part of my journey in web development.
-
-This project helped me practice front-end development, JavaScript, responsive design, and GitHub Pages deployment.
 
 ---
