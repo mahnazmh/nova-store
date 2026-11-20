@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,4 +88,95 @@
         <script src="./script.js"></script>
     </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NOVA | Online Store</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>NOVA</h1>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <button id="cart-button">
+                Cart (<span id="cart-count">0</span>)
+            </button>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Discover Your Style</h2>
+                <p>Find your favorite products at NOVA.</p>
+                <button>Shop Now</button>
+            </section>
+
+            <section class="products">
+                <h2>Our Products</h2>
+
+                <input type="text" id="search-input" placeholder="Search products...">
+                <select id="sort-products">
+                    <option value="default">Default Sorting</option>
+                    <option value="low-high">Price: Low to High</option>
+                    <option value="high-low">Price: High to Low</option>
+                </select>
+                <select id="filter-category">
+                    <option value="all">All Categories</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="shoes">Shoes</option>
+                    <option value="bags">Bags</option>
+                </select>
+                <p id="product-count"></p>
+                <div id="product-list"></div>
+            </section>
+
+            <section class="cart-section">
+                <h2>Shopping Cart</h2>
+
+                <div id="cart-items"></div>
+
+                <h3>Total: $<span id="cart-total">0</span></h3>
+                <button id="checkout-button">
+                    Proceed to Checkout
+                </button>
+            </section>
+            <footer class="footer">
+                <h2>NOVA</h2>
+
+                <p>Discover Your Style. Define Your Future.</p>
+
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <p class="copyright">
+                    © 2026 NOVA. All Rights Reserved.
+                </p>
+            </footer>
+        </main>
+        <section id="order-confirmation">
+            <h2>Thank You for Your Order!</h2>
+            <p>Your order has been placed successfully.</p>
+            <p>We appreciate your shopping at NOVA.</p>
+            <button onclick="continueShopping()">Continue Shopping</button>
+        </section>
+        <script src="./script.js"></script>
+    </body>
+
+>>>>>>> b486e5af0a47449b35255d3faba33d868a208ddc
 </html>
